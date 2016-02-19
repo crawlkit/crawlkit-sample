@@ -1,0 +1,31 @@
+{
+  "name": "crawlkit-sample",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Checks a site with a lot of accessibility fails and prints the results",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "a11y",
+    "accessibility",
+    "check",
+    "crawlkit"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+     "node": ">=4.2"
+  },
+  "author": "Joscha Feth <joscha@feth.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crawlkit": "^2.0.0",
+    "crawlkit-runner-accessibility-developer-tools": "^1.1.3",
+    "crawlkit-runner-axe": "^1.0.2",
+    "crawlkit-runner-htmlcs": "^1.1.7"
+  }
+}
