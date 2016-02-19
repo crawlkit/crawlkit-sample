@@ -7,6 +7,8 @@ A very simple usage sample for CrawlKit that runs a few runners against a given 
 
 This sample runs against Alistair's sample site and prints the found accessibility defects to the console.
 
+Please note: this sample only runs against a single webpage. [CrawlKit](https://github.com/crawlkit/crawlkit) is actually tailored to crawl a whole network of pages and run against all of them. As such, the returned result for a single webpage is seemingly a bit complex. To run against multiple webpages, have a look at the examples in the CrawlKit main repository.
+
 ## How to
 * Clone this repository
 * Run `npm install`
